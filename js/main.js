@@ -74,6 +74,6 @@ function showDataArea(mealId) {
 let closeBtns = document.querySelectorAll(".close");
 closeBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
-    dataArea.classList.remove("Showdetails");
+    dataArea.classList.add("Showdetails");
   });
 });
